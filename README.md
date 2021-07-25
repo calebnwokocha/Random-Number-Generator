@@ -12,5 +12,5 @@ m, 0 < m  — the "modulus"
 a, 0 < a < m — the "multiplier"
 c, 0 <= c < m — the "increment"
 X{0}, 0 <= X{0} < m — the "seed" or "start value"
-
+ 
 Source: https://en.wikipedia.org/wiki/Linear_congruential_generator
