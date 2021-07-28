@@ -14,7 +14,7 @@ public class RandomNumGen {
         final int MULTIPLIER = 24;
         final int INCREMENT = 65;
         int generatedNum[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-        int contraintedNum = 0;
+        int constraintedNum = 0;
 
         while (true) {
             for (int i = 0; i < generatedNum.length; i++) {
@@ -26,8 +26,8 @@ public class RandomNumGen {
 
                     // Program Output Definition:
                     // The first discovered min <= R[n] <= max in R is the output.
-                    contraintedNum = generatedNum[i];
-                    return contraintedNum;
+                    constraintedNum = generatedNum[i];
+                    return constraintedNum;
                 } else {
                     for(int j = 0; j <= 9; j++) {
 
